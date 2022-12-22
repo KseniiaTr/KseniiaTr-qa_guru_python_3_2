@@ -2,6 +2,7 @@ import pytest
 from selene.support.shared import browser
 from selene import be, have
 
+
 @pytest.fixture()
 def size_browser():
     browser.config.window_width = 1680
